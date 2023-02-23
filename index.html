@@ -1,0 +1,315 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+        <link
+            href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css"
+            rel="stylesheet"
+        />
+        <link rel="stylesheet" href="css/main.css" />
+        <!-- for mobile  -->
+        <link
+            rel="stylesheet"
+            href="css/mobile.css"
+            media="screen and (max-width:768px)"
+        />
+        <link
+            rel="stylesheet"
+            href="css/widescreen.css"
+            media="screen and (min-width:1100px)"
+        />
+          <link rel="icon" type="image/x-icon" href="./images/favicon-32x32.png">
+
+        <title>El-Safa Pharmacy</title>
+        <script src="https://polyfill.io/v3/polyfill.min.js?features=default"></script>
+    </head>
+    <body>
+       
+        <nav id="navbar" class="bg-dark navbar top-nav">
+            <div class="logo">
+                <a href="#"
+                    ><img src="images/logo.png" alt="logo"
+                /></a>
+            </div>
+            <input id="menu-toggle" type="checkbox" />
+    <label class='menu-button-container' for="menu-toggle">
+    <div class='menu-button'></div></label>
+            <ul class="menu">
+                <li><a href="#">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#categories">Categories</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+        <section id="showcase" class="showcase text-center">
+            <div class="overlay"></div>
+
+            <div class="showcase-content">
+                <h1 class="l-heading py-1">
+                    Stay Safe <br /><span class="text-primary"
+                        >Order Online !</span
+                    >
+                </h1>
+                <a class="btn py-1">Order Now</a>
+            </div>
+        </section>
+        <section class="medicine">
+            <h2 class="title text-center mt-20">
+                Let’s clean out your medicine cabinet!
+            </h2>
+            <div class="container">
+                <div class="step-1">
+                    <h4 class="sub-title">Step 1</h4>
+                    <p>Who are you shopping for?</p>
+                    <div class="age-div">
+                        <a href="#">
+                            <span class="age">12 +</span>
+                            <span class="age-2">Adults</span>
+                        </a>
+                        <a href="#">
+                            <span class="age">2-12</span>
+                            <span class="age-2">Kids</span>
+                        </a>
+                        <a href="#">
+                            <span class="age">&lt; 2</span>
+                            <span class="age-2">Infants</span>
+                        </a>
+                    </div>
+                </div>
+                <div class="step-2">
+                    <h4 class="sub-title">Step 2</h4>
+                    <h4>What symptoms are you shopping for?</h4>
+                    <div class="symptoms">
+                        <span>Acid Indigestion</span>
+                        <span>Anxiety</span>
+                        <span>Arthritis</span>
+                        <span>Bloating</span>
+                        <span>Body Aches</span>
+                        <span>Bruises</span>
+                        <span>Calf & Food Cramps</span>
+                        <span>Chest Congestion</span>
+                        <span>Chills</span>
+                        <span>Congestion</span>
+                        <span class="">Constipation</span>
+                        <span class="">Cough</span>
+                        <span class="hide">Dizziness</span>
+                        <span class="hide">Dry Throat</span>
+                        <span class="hide">Fatigue</span>
+                        <span class="hide">Fever</span>
+                        <!-- <span>Gasses</span> -->
+                        <div class="btn-show">Show more</div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="about bg-light" id="about">
+            <div class="container">
+                <div class="head">
+                    <p class="lead">about us</p>
+                    <h2 class="py-1 title">El Safa Pharmacy</h2>
+                </div>
+                <div class="content">
+                    <div class="head-content">
+                        <div class="paragraph">
+                            <p class="lead">
+                                Wellness is you It is not just about being
+                                healthy, it is beyond. WELLNESS is a state of
+                                complete harmony & integration of the body, mind
+                                and spirit.
+                            </p>
+                        </div>
+                        <div class="img-content">
+                            <img
+                                src="images/pharmacy.jpg"
+                                alt=""
+                                class="box-shadow"
+                            />
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="categories" class="categories bg-light">
+            <div class="container">
+                <div class="cat-head">
+                    <p class="sub-title">browse product by</p>
+                    <h2 class="title">our categories</h2>
+                    <div class="cat">
+                        <div class="cat-main">
+                            <img src="images/medications.jpg" alt="" />
+                            <p>Medications</p>
+                            <span class="hoverable"
+                                >Browse Products<i
+                                    class="bx bxs-chevron-right"
+                                ></i
+                            ></span>
+                        </div>
+                        <div class="cat-main">
+                            <img src="images/vitamens.jpg" alt="" />
+                            <p>Supplements</p>
+                            <span class="hoverable"
+                                >Browse Products<i
+                                    class="bx bxs-chevron-right"
+                                ></i
+                            ></span>
+                        </div>
+                        <div class="cat-main">
+                            <img src="images/skin.jpg" alt="" />
+                            <p>Skin Care</p>
+                            <span class="hoverable"
+                                >Browse Products
+                                <i class="bx bxs-chevron-right"></i
+                            ></span>
+                        </div>
+                        <div class="cat-main">
+                            <img src="images/hair.jpg" alt="" />
+                            <p>Hair Care</p>
+                            <span class="hoverable"
+                                >Browse Products
+                                <i class="bx bxs-chevron-right"></i
+                            ></span>
+                        </div>
+                        <div class="cat-main">
+                            <img src="images/beauty.jpg" alt="" />
+                            <p>Beauty</p>
+                            <span class="hoverable"
+                                >Browse Products
+                                <i class="bx bxs-chevron-right"></i>
+                            </span>
+                        </div>
+                        <div class="cat-main">
+                            <img src="images/medications.jpg" alt="" />
+                            <p>Personal Care</p>
+                            <span class="hoverable"
+                                >Browse Products<i
+                                    class="bx bxs-chevron-right"
+                                ></i
+                            ></span>
+                        </div>
+                        <div class="cat-main">
+                            <img src="images/vitamens.jpg" alt="" />
+                            <p>Perfumes</p>
+                            <span class="hoverable"
+                                >Browse Products<i
+                                    class="bx bxs-chevron-right"
+                                ></i
+                            ></span>
+                        </div>
+                        <div class="cat-main">
+                            <img src="images/skin.jpg" alt="" />
+                            <p>Baby Care</p>
+                            <span class="hoverable"
+                                >Browse Products<i
+                                    class="bx bxs-chevron-right"
+                                ></i
+                            ></span>
+                        </div>
+                        <div class="cat-main">
+                            <img src="images/hair.jpg" alt="" />
+                            <p>Medical Supplies</p>
+                            <span class="hoverable"
+                                >Browse Products<i
+                                    class="bx bxs-chevron-right"
+                                ></i
+                            ></span>
+                        </div>
+                        <div class="cat-main">
+                            <img src="images/beauty.jpg" alt="" />
+                            <p>General Use</p>
+                            <span class="hoverable"
+                                >Browse Products<i
+                                    class="bx bxs-chevron-right"
+                                ></i
+                            ></span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="order-now" id="services">
+            <!-- <img class="bg" src="./images/1.png" alt=""> -->
+            <div class="overlay"></div>
+            <div class="content">
+                <h2 class="sub-title">Order Your</h2>
+                <p class="title">Prescription</p>
+                <p>
+                    Now you can upload your prescription in here and it will be
+                    translated items in your cart
+                </p>
+                <button class="btn">
+                    Order Now <i class="bx bxs-chevron-right"></i>
+                </button>
+            </div>
+        </section>
+        <section class="articales">
+            <div class="container art-cont">
+                <h2 class="sub-title">read our</h2>
+                <p class="title">Recent Articles</p>
+            </div>
+            <div class="container">
+                <div class="art-conent">
+                    <div class="art">
+                        <div class="img">
+                            <img src="images/women.jpg" alt="" />
+                        </div>
+                        <h6 class="time">07 FEB 2020</h6>
+                        <p>Women's Brains 'Younger' Than Men's</p>
+                        <div class="read">
+                            <button>Read More</button>
+                        </div>
+                    </div>
+                    <div class="art">
+                        <div class="img">
+                            <img src="images/freeze..jpg" alt="" />
+                        </div>
+                        <h6 class="time">28 JUN 2022</h6>
+                        <p>How Does a Person Freeze to Death?</p>
+                        <div class="read">
+                            <button>Read More</button>
+                        </div>
+                    </div>
+                    <div class="art">
+                        <div class="img">
+                            <img src="images/preg.jpg" alt="" />
+                        </div>
+                        <h6 class="time">12 AUG 2021</h6>
+                        <p>Climate Change May Hurt Babies` Hearts</p>
+                        <div class="read">
+                            <button>Read More</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="contact-us" id="contact">
+            <div class="form">
+                <h3>Feel free to ask anything</h3>
+                <form action="#">
+                    <input type="text" class="text" placeholder="Name">
+                    <input type="email" name="email" id="email" placeholder="E-mail">
+                    <input type="text" placeholder="Subject">
+                    <textarea name="message" id="message" placeholder="Message" cols="30" rows="5"></textarea>
+                    <button>Submit</button>
+                </form>
+
+            </div>
+            <div class="map" id="map">
+<!-- AIzaSyBvhloaO_gvupKNpAQJoSYLU1_W7GcFDIc -->
+            </div>
+        </section>
+        <section class="footer bg-dark">
+            <div><h3>	&#169; Ahmad Gaber 2022</h3></div>
+        </section>
+        <div class="top-top"><i class='bx bx-chevrons-up' ></i></div>
+        <script
+      src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBvhloaO_gvupKNpAQJoSYLU1_W7GcFDIc&callback=initMap&v=weekly"
+      defer
+    ></script>
+        <script src="js/main.js"></script>
+    </body>
+</html>
